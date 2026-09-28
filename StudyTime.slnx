@@ -7,5 +7,6 @@
     <Project Path="tmp/F1QuickValidation/F1QuickValidation.csproj" />
     <Project Path="tmp/F6-StudyArea-Handlers/F6-StudyArea-Handlers-Test.csproj" />
     <Project Path="tmp/F7-StudyPlan-Handlers/F7-StudyPlan-Handlers.csproj" />
+    <Project Path="tmp\F8-Application-Weekly-Setup\F8A\F8A.Tests.csproj" />
   </Folder>
 </Solution>
