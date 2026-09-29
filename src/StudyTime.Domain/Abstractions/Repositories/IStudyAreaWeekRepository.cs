@@ -8,4 +8,5 @@ public interface IStudyAreaWeekRepository
     public Task AddAsync(StudyAreaWeek entity, CancellationToken token);
     public void Update(StudyAreaWeek entity);
     public void Remove(StudyAreaWeek entity);
+    public Task<IReadOnlyList<StudyAreaWeek>> GetByWeekStartDateAsync(DateOnly weekStartDate, CancellationToken ct);
 }
